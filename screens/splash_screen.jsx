@@ -21,7 +21,7 @@ export default function Splash({ navigation }) {
     <React.Fragment>
 
       <Center flex={1} px="3">
-        <Box bg="#df8d8eee" borderRadius="30">
+        <Box bg="#e3d3a6" borderRadius="30">
           <Image
             source={applogo}
             style={{ width: 200, height: 200, borderColor: "black" }}

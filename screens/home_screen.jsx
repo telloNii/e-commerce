@@ -9,7 +9,7 @@ export default function Home({ navigation }) {
     <React.Fragment>
 
       <Center flex={1} px="3">
-        <Box bg="#df8d8eee" borderRadius="30">
+        <Box bg="#e3d3a6" borderRadius="30">
           <Image
             source={applogo}
             style={{ width: 200, height: 200, borderColor: "black" }}
@@ -25,7 +25,7 @@ export default function Home({ navigation }) {
       </Center>
       <VStack alignItems="center">
         <Button
-          backgro_text={{ fontFamily: "ZenKakuGothicNewRegular" }}undColor={styles.button.logIn.backgroundColor}
+          backgroundColor={styles.button.logIn.backgroundColor}
           style={styles.button}
           _text={{
             color: "black",
@@ -60,10 +60,10 @@ const styles = {
     margin: 7,
     borderRadius: 20,
     logIn: {
-      backgroundColor: "white",
+      backgroundColor: "#e3d3a6",
     },
     signUp: {
-      backgroundColor: "primary",
+      backgroundColor: "#e3d3a6",
     },
   },
 };
